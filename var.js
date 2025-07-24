@@ -1,5 +1,5 @@
 let temp = "25"
-if (temp > 25 ) {
+if (temp >= 25 ) {
     console.log("its so hot today")
 
 }
