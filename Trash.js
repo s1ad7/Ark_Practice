@@ -51,3 +51,13 @@ if (Num %2 == 0) {
 else {
     console.log("odd")
 }
+
+
+console.log("a");
+setTimeout(function (){
+    console.log("b");
+}, 2000); 
+console.log("c");
+// Output: a c b
+
+
