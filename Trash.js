@@ -12,7 +12,9 @@ console.log("After rotating:", "a =", a, "b =", b, "c =", c);
 
 
 
-// a takes on b’s old value, b takes on c’s old value, c takes on a’s old value.
+// a takes on b old value
+//  b takes on c old value
+// c takes on a old value
 
 
 var x = 10;
@@ -61,3 +63,10 @@ console.log("c");
 // Output: a c b
 
 
+export function add(a, b) {
+  return a + b;
+}
+
+import { add } from './math.mjs';
+
+console.log(add(2, 3)); // Output: 5

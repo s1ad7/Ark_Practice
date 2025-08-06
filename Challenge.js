@@ -37,10 +37,10 @@ console.log(total);
 */
 
 function nDigits(number) {
-    let total = 0
+    let total = 0;
     for (i=1; i<= number.length; i++){
         total++
     }
     return total;
 }
-console.log(nDigits(123542))
+console.log(nDigits('123542'))
